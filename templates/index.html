@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Upload Excel File Data</title>
+<style>
+    body{text-align:center;}
+    form{display:block;border:1px solid black;padding:20px;}
+</style>
+</head>
+<body>
+    <h1>Upload Excel files data</h1>
+    <h1>to SAP Hana Database Cloud</h1>
+    <h1>using Python</h1>
+
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <input type="file" accept=".xls, .xlsx" name="upload-file" id="upload">
+        <input type="submit" value="Upload">
+    </form>
+</body>
+</html>
